@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="wea.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🌦 Weather Application</h1>
+      <input type="text" id="cityInput" placeholder="Search city..." />
+      <button onclick="searchCity()">Search</button>
+    </header>
+    <main>
+      <div class="current">
+        <h2 id="cityName">--</h2>
+        <p id="localTime">🕒 --:--</p>
+        <div class="temp" id="temp">-- °C</div>
+        <div id="description">--</div>
+        <div class="info">
+          <p>💧 Humidity: <span id="humidity">--%</span></p>
+          <p>🌬️ Wind: <span id="wind">-- km/h</span></p>
+          <p>👁️ Visibility: <span id="visibility">-- km</span></p>
+          <p>🔽 Pressure: <span id="pressure">-- mb</span></p>
+        </div>
+      </div>
+
+     <!--<div class="forecast">
+        <h3>🌤 Hourly Forecast</h3>
+        <div id="hourly" class="scroll"></div>
+
+        <h3>📅 Weekly Forecast</h3>
+        <div id="weekly" class="scroll"></div>
+      </div>-->
+
+    </main>
+  </div>
+
+  <script src="wea.js"></script>
+</body>
+</html>

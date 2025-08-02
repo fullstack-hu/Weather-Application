@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: linear-gradient(to top, #1e3c72, #2a5298);
+  transition: background 0.5s ease-in-out;
+}
+
+.app {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #ffffffcc;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.current {
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.temp {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.forecast h3 {
+  margin-top: 30px;
+}
+
+.scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.scroll div {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  min-width: 100px;
+  border-radius: 8px;
+  text-align: center;
+}
+
